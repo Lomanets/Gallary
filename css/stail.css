@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(9, 156, 201);
+    color: #fafafa;
+}
+
+.item {
+    background-color: darkgreen;
+    height: 100px;
+    margin-bottom: 10px;
+    width: calc(50% - 30px);
+    background-size: cover;
+    height: 400px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.item:hover {
+    transform: scale(1.05) rotate(5deg);
+}
+
+.item:active {
+    transform: scale(0.9) rotate(0deg);
+   
+}
+
+.box {
+    width:  80%;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.image {
+    background-image: url(../images/горы.jfif);
+}
+
+.imege2 {
+    background-image: url(../images/горы2.jfif);
+}
+
+.imege3 {
+    background-image: url(../images/горы3.jfif);
+}
+
+.image4 {
+    background-image: url(../images/горы4.jfif);
+}
+
+.image5 {
+    background-image: url(../images/горы5.jfif);
+}
+
+.image6 {
+    background-image: url(../images/горы6.jfif);
+}
+
+.imege7 {
+    background-image: url(../images/горы7.jfif);
+}
+
+.imege8 {
+    background-image: url(../images/горы8.jfif);
+}
+
+.imege9 {
+    background-image: url(../images/горы9.jfif);
+}
+
+.imege10 {
+    background-image: url(../images/горы10.jfif);
+}
+
+.imege11 {
+    background-image: url(../images/горы11.jfif);
+}
+
+.imege12 {
+    background-image: url(../images/горы12.jfif);
+}
+
+.item {
+    display: inline-block
+}
